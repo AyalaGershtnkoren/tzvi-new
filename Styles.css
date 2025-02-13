@@ -234,12 +234,12 @@ p {
     flex-direction: column;
     gap: 20px;
     min-height: 400px;
-    width: 50%;
+    width: 100%;
 }
 
     .about .text-one h2 {
         font-size: var(--font-3x-large);
-        width: max-content;
+        width: auto;
     }
 
     .about .text-one p {
@@ -411,7 +411,7 @@ p {
     }
 
     .contact .form input[type="submit"] {
-        background-color: #04aa6d;
+        background-color: #DAA520;
         color: white;
         padding: 12px 20px;
         border: none;
@@ -420,7 +420,7 @@ p {
     }
 
         .contact .form input[type="submit"]:hover {
-            background-color: #ffd700;
+            background-color: #FFC300;
         }
 
 /*FOOTER*/
@@ -434,7 +434,7 @@ p {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     .services.container,
     .careers.container {
         width: 100%;
